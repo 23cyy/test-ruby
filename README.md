@@ -17,12 +17,12 @@ This project is a simple Ruby web application using **WEBrick** as the HTTP serv
 ## 🚀 How to launch the project
 
 1. Make sure you have Ruby, WEBrick, and the `mysql2` gem installed:
-   ``bash
+   ```bash
    gem install webrick mysql2
    ```
 
 2. Start the server with the command :
-   ``bash
+   ```bash
    ruby app.rb
    ```
 
