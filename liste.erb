@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Liste des personnes avec informations professionnelles</title>
+</head>
+<body>
+  <h1>Liste des personnes avec informations professionnelles</h1>
+  <ul>
+    <% @people.each do |person| %>
+      <li><%= person['firstname'] %> <%= person['lastname'] %> - <%= person['profession'] %></li>
+    <% end %>
+  </ul>
+</body>
+</html>
